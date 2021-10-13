@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "nft-anybodies": {
+      "hosting": {
+        "anybodies-staging": [
+          "anybodies-staging"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "main": "nft-anybodies"
+  }
+}
