@@ -1,6 +1,6 @@
 import "./Hero.css"
 import logo from "./logo.svg"
-import anybodies from "./anybodies-logo.svg"
+import anybodies from "./logo-w.svg"
 
 
 export const Hero: any = () => {
@@ -13,6 +13,10 @@ export const Hero: any = () => {
                         {/* <div>
                         <h1 className="hero-welcome-text">WELCOME, ANYBODIES</h1>
                     </div> */}
+                        {/* <div className="hero-desk">
+                                  <div className="hero-unique">9,876 unique bodies</div>
+                                < div className="hero-anysols"> in need of a sol</div>
+ƒ                        </div> */}
 
 
                     </div>

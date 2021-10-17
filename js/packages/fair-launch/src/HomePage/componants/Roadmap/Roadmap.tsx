@@ -32,10 +32,8 @@ const bulletsData = [
 export const Roadmap = () => {
     return (
         <>
-        <div className="top-border"></div>
-            <div style={{
-                marginTop: "50px"
-            }}>
+        {/* <div className="top-border"></div> */}
+            <div>
                 <div className="roadmap-title"><div>ROADMAP</div></div>
                 <div className="roadmap-main-container">
                     <div className="roadmap-inner-container">

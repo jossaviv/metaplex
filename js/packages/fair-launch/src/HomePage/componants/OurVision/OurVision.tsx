@@ -15,8 +15,8 @@ export const OurVision = () => {
                                 margin: "auto"
                             }}>
                                 <div className="vision-unique">9,876 unique bodies</div>
-                                < div className="vision-anysols"> in need of anysols</div>
-                                <div className="vision-welcome-text"><b>9,876</b> hand-painted collectibles representing those traditionally not reflected in the NFT space, especially marginalized identities including race, sexuality, gender & more.</div>
+                                < div className="vision-anysols"> in need of a sol</div>
+                                <div className="vision-welcome-text">hand-painted collectibles representing those traditionally not reflected in the NFT space, especially marginalized identities including race, sexuality, gender & more.</div>
 
                             </div>
                             <div className="vision-item-text">

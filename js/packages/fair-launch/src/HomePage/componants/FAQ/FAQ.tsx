@@ -44,7 +44,7 @@ export const FAQ = () => {
     return (
         <>
             <div style={{width:"100vw", overflow: "none"}}>
-                <div className="qa-title">Frequently Asked Questions</div>
+                <p className="qa-title"></p>
                 <div className="qa-main-container">
                     <div className="qa-inner-container">
                         {qas.map(qd =>
