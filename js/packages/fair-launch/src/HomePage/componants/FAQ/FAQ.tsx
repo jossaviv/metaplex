@@ -34,17 +34,17 @@ const qas = [
         q: "ROYALTY FEES?",
         a: "4% fee to the Creator & DAO."
     },
-    {
-        q: "ANYBODIES HELD FROM SALE?",
-        a: "200 (Giveaways, Marketing and team)"
-    },
+    // {
+    //     q: "ANYBODIES HELD FROM SALE?",
+    //     a: "200 (Giveaways, Marketing and team)"
+    // },
 ]
 
 export const FAQ = () => {
     return (
         <>
-            <div>
-                <div className="qa-title">FAQ</div>
+            <div style={{width:"100vw", overflow: "none"}}>
+                <div className="qa-title">Frequently Asked Questions</div>
                 <div className="qa-main-container">
                     <div className="qa-inner-container">
                         {qas.map(qd =>

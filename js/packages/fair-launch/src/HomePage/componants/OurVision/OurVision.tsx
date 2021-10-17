@@ -1,6 +1,7 @@
 import "./OurVision.css"
 import { ImageSwitcher } from "./ImageSwitcher/ImageSwitcher"
-
+// 9,876 unique bodies
+// in need of anysols
 export const OurVision = () => {
     return (
         <>
@@ -8,13 +9,22 @@ export const OurVision = () => {
                 {/* <div className="vision-title">OUR VISION</div> */}
                 <div className="vision-main-container">
                     <div className="vision-item-container">
-                        <div className="vision-item"><ImageSwitcher /></div>
                         <div className="vision-item">
+                            <div style={{
+                                height: "fit-content",
+                                margin: "auto"
+                            }}>
+                                <div className="vision-unique">9,876 unique bodies</div>
+                                < div className="vision-anysols"> in need of anysols</div>
+                                <div className="vision-welcome-text"><b>9,876</b> hand-painted collectibles representing those traditionally not reflected in the NFT space, especially marginalized identities including race, sexuality, gender & more.</div>
+
+                            </div>
                             <div className="vision-item-text">
-                                <div className="vision-welcome">Welcome, <b>Anybodies</b></div>
-                                <div className="vision-welcome-text">9,876 hand-painted collectibles representing those traditionally not reflected in the NFT space, especially marginalized identities including race, sexuality, gender & more.</div>
+
+                                {/* <div className="vision-welcome">Welcome, <b>Anybodies</b></div> */}
                             </div>
                         </div>
+                        <div className="vision-item"><ImageSwitcher /></div>
                     </div>
                 </div>
                 {/* <div className="vision-text">

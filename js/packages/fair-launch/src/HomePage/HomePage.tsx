@@ -4,18 +4,23 @@ import { FAQ } from "./componants/FAQ/FAQ"
 import { Roadmap } from "./componants/Roadmap/Roadmap"
 import { CustomToolbar } from "./componants/Toolbar/Toolbar"
 import "./HomePage.css"
+import { Team } from "./componants/Team/Team"
+import { Footer } from "./componants/Footer/Footer"
 
 export const HomePage: any = () => {
     return (
         <>
-            {/* <CustomToolbar>asd</CustomToolbar> */}
+            {/* <CustomToolbar></CustomToolbar> */}
             <div className="home-main-container">
-                <div className="home-inner-container">
-                    <Hero></Hero>
-                </div>
+                {/* <div className="home-inner-container">
+                   
+                </div> */}
+                <Hero></Hero>
                 <OurVision></OurVision>
                 <Roadmap></Roadmap>
                 <FAQ></FAQ>
+                <Team></Team>
+                <Footer></Footer>
             </div>
         </>)
 }

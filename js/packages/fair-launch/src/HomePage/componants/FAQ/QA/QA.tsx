@@ -11,7 +11,7 @@ export const QA: any = ({ q, a }: any) => {
                     </div>
                 </div>
 
-                <div style={{ display: "flex", marginTop: "7px" }}>
+                <div style={{ display: "flex" }}>
                     <div className="q-green">  <div className="q-bullet-text">A</div></div>
                     <div className="a-text">
                         <div style={{ margin: "auto" }}>{a}</div>

@@ -32,8 +32,11 @@ const bulletsData = [
 export const Roadmap = () => {
     return (
         <>
-            <div>
-                <div className="roadmap-title">ROADMAP</div>
+        <div className="top-border"></div>
+            <div style={{
+                marginTop: "50px"
+            }}>
+                <div className="roadmap-title"><div>ROADMAP</div></div>
                 <div className="roadmap-main-container">
                     <div className="roadmap-inner-container">
                         {bulletsData.map((d, i) => <BulletPoint key={i} index={i}></BulletPoint>)}
@@ -56,12 +59,13 @@ const BulletPoint: any = ({ index }: any) => {
                 <div>
                     <div className="bullet-num-container">
                         <div className="bullet-num-text">
-                            {index+1}
+                            
                         </div>
                     </div>
                     <div className="bullet-line"></div>
                 </div>
-                <div style={{ display: "grid" }}>
+                <div className="bullet-bg">
+                    <div className="bullet-num-text-inline">{index + 1}.</div>
                     <div className="bullet-title">
                         {bulletsData[index].title}
                     </div>
