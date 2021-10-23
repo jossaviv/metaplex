@@ -51,7 +51,7 @@ const members: MemberData[] = [
         imgSrc: dan,
         name: "Daniel Dedekind",
         role: "Content Strategist",
-        bio: "Nora is an Emmy-award nominated journalist and a traditionally published author of two books. She lives in New York City with her partner!"
+        bio: "Daniel is a freelance filmmaker, photographer and content director for multiple leading international brands. He lives in Johannesburg, South Africa."
     },
 ]
 

@@ -6,6 +6,7 @@ import { CustomToolbar } from "./componants/Toolbar/Toolbar"
 import "./HomePage.css"
 import { Team } from "./componants/Team/Team"
 import { Footer } from "./componants/Footer/Footer"
+import { Brand } from "./componants/Brand/Brand"
 
 export const HomePage: any = () => {
     return (
@@ -17,6 +18,7 @@ export const HomePage: any = () => {
                 </div> */}
                 <Hero></Hero>
                 <OurVision></OurVision>
+                <Brand></Brand>
                 <Roadmap></Roadmap>
                 <FAQ></FAQ>
                 <Team></Team>

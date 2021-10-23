@@ -12,17 +12,13 @@ export const OurVision = () => {
                         <div className="vision-item">
                             <div style={{
                                 height: "fit-content",
-                                margin: "auto"
-                            }}>
+                                margin: "auto"}}>
                                 <div className="vision-unique">9,876 unique bodies</div>
                                 < div className="vision-anysols"> in need of a sol</div>
                                 <div className="vision-welcome-text">hand-painted collectibles representing those traditionally not reflected in the NFT space, especially marginalized identities including race, sexuality, gender & more.</div>
 
                             </div>
-                            <div className="vision-item-text">
-
-                                {/* <div className="vision-welcome">Welcome, <b>Anybodies</b></div> */}
-                            </div>
+                          
                         </div>
                         <div className="vision-item"><ImageSwitcher /></div>
                     </div>
