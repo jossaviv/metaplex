@@ -4,7 +4,7 @@ import { QA } from "./QA/QA"
 const qas = [
     {
         q: "WHEN IS MINT?",
-        a: "October 31st 2021."
+        a: "November 10th 2021."
     },
     {
         q: "IS THERE A PRE-SALE?",
@@ -12,7 +12,7 @@ const qas = [
     },
     {
         q: "WHAT IS THE COST?",
-        a: "1.5 - 2.5 SOL (FLP)"
+        a: "0.99 SOL"
     },
     {
         q: "WHAT BLOCKCHAIN?",
@@ -20,19 +20,19 @@ const qas = [
     },
     {
         q: "IS THERE RARITY?",
-        a: <><b>NO</b>, we value all Anybodies equally. You get to decide the value of your Anybodies.</>
+        a: <>Yes.</>
     },
     {
         q: "WHAT IS TRANSACTION LIMIT?",
-        a: "3 per transaction."
+        a: "None."
     },
     {
         q: "WHICH MARKETPLACE WILL BE USED?",
-        a: "We are still busy deciding. "
+        a: "Magic Eden."
     },
     {
         q: "ROYALTY FEES?",
-        a: "4% fee to the Creator & DAO."
+        a: "5% fee."
     },
     // {
     //     q: "ANYBODIES HELD FROM SALE?",
