@@ -1,5 +1,8 @@
-import { HorizontalRoadmap } from "../../../HomePage/componants/HorizontalRoadmap/HorizontalRoadmap";
+// import { HorizontalRoadmap } from "../../../HomePage/componants/HorizontalRoadmap/HorizontalRoadmap";
+import { Team } from "../Team/Team";
+import { HorizontalRoadmap } from "./HorizontalRoadmap/HorizontalRoadmap";
 import "./Roadmap.css";
+const Zoom = require('react-reveal/Zoom');
 
 export const Roadmap: any = () => {
     return (
@@ -11,7 +14,10 @@ export const Roadmap: any = () => {
                         <p className="roadmap-timeline-text">TIMELINE</p>
                     </div>
                     <div className="roadmap-roadmap-container">
-                        <p className="roadmap-roadmap-text">ROADMAP</p>
+                        <Zoom top cascade>
+
+                            <p className="roadmap-roadmap-text">ROADMAP</p>
+                        </Zoom>
                     </div>
                 </div>
                 <p className="roadmap-roadmap-desc">
@@ -19,9 +25,10 @@ export const Roadmap: any = () => {
                     <br />
                     Powered by blockchain and smart contracts.
                 </p>
-
                 <HorizontalRoadmap />
+                <Team />
             </div>
+
         </>
     )
 }

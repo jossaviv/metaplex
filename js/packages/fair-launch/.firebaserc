@@ -1,6 +1,6 @@
 {
   "targets": {
-    "anybodies-staging": {
+    "nft-anybodies": {
       "hosting": {
         "anybodies-staging": [
           "anybodies-staging"
