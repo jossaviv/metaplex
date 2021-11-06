@@ -1,32 +1,22 @@
-import { Hero } from "./componants/Hero/Hero"
-import { OurVision } from "./componants/OurVision/OurVision"
-import { FAQ } from "./componants/FAQ/FAQ"
-import { Roadmap } from "./componants/Roadmap/Roadmap"
-import { CustomToolbar } from "./componants/Toolbar/Toolbar"
+import { Hero } from "./Components/Hero/Hero"
+import { Intro } from "./Components/Intro/Intro"
+import { Roadmap } from "./Components/Roadmap/Roadmap"
+import { Vault } from "./Components/Vault/Vault"
 import "./HomePage.css"
-import { Team } from "./componants/Team/Team"
-import { Footer } from "./componants/Footer/Footer"
-import { Brand } from "./componants/Brand/Brand"
-import { RoadmapV2 } from "./componants/RoadmapV2/RoadmapV2"
-import { HorizontalRoadmap } from "./componants/HorizontalRoadmap/HorizontalRoadmap"
 
 export const HomePage: any = () => {
     return (
         <>
             {/* <CustomToolbar></CustomToolbar> */}
             <div className="home-main-container">
+                <Hero />
+                <Intro />
+                <Vault />
+                <Roadmap />
                 {/* <div className="home-inner-container">
                    
                 </div> */}
-                <Hero></Hero>
-                <OurVision></OurVision>
-                <RoadmapV2></RoadmapV2>
-                <HorizontalRoadmap></HorizontalRoadmap>
-                <Brand></Brand>
-                <Roadmap></Roadmap>
-                <FAQ></FAQ>
-                <Team></Team>
-                <Footer></Footer>
             </div>
-        </>)
+        </>
+    )
 }
