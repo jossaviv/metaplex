@@ -89,7 +89,7 @@ const bulletsData = [
 ]
 
 
-export const Roadmap = () => {
+export const RoadmapOld = () => {
     return (
         <>
             {/* <div className="top-border"></div> */}
