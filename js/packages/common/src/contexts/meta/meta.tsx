@@ -119,6 +119,27 @@ export function MetaProvider({ children = null as any }) {
     return nextState;
   }
 
+  async function pullAllSiteData() {
+    if (isLoading) return state;
+    if (!storeAddress) {
+      if (isReady) {
+        setIsLoading(false);
+      }
+      return state;
+    } else if (!state.store) {
+      setIsLoading(true);
+    }
+    console.log('------->Query started');
+
+    const nextState = await loadAccounts(connection);
+
+    console.log('------->Query finished');
+
+    setState(nextState);
+    await updateMints(nextState.metadataByMint);
+    return;
+  }
+
   async function update(
     auctionAddress?: any,
     bidderAddress?: any,
@@ -232,6 +253,13 @@ export function MetaProvider({ children = null as any }) {
     await updateMints(nextState.metadataByMint);
 
     if (auctionAddress && bidderAddress) {
+      nextState = await pullAuctionSubaccounts(
+        connection,
+        auctionAddress,
+        nextState,
+      );
+      setState(nextState);
+
       const auctionBidderKey = auctionAddress + '-' + bidderAddress;
       return [
         nextState.auctions[auctionAddress],
@@ -314,6 +342,8 @@ export function MetaProvider({ children = null as any }) {
         pullAuctionPage,
         pullAllMetadata,
         pullBillingPage,
+        // @ts-ignore
+        pullAllSiteData,
         isLoading,
       }}
     >
