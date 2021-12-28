@@ -32,7 +32,7 @@ const members: MemberData[] = [
         name: "Elli De Gouveia",
         role: "Founder",
         bio: "I love building new things, starting from a blank whiteboard or early-stage prototype and transforming it into something people truly value.",
-        twitter: "https://twitter.com/0x_Elli",
+        twitter: "https://twitter.com/ellihandro",
         linkedin: "https://www.linkedin.com/in/elli-de-gouveia-382335a7/"
     },
     {
@@ -49,13 +49,13 @@ const members: MemberData[] = [
         bio: "Digital marketer who helps companies scale by implementing systems that predictably increase revenue through social media and online advertising",
         twitter: "https://twitter.com/hlanga_vena"
     },
-    {
-        imgSrc: nora,
-        name: "Nora Neus",
-        role: "Writer",
-        bio: "Nora is an Emmy-award nominated journalist and a traditionally published author of two books. She lives in New York City with her partner!",
-        twitter: "https://twitter.com/noraneus"
-    },
+    // {
+    //     imgSrc: nora,
+    //     name: "Nora Neus",
+    //     role: "Writer",
+    //     bio: "Nora is an Emmy-award nominated journalist and a traditionally published author of two books. She lives in New York City with her partner!",
+    //     twitter: "https://twitter.com/noraneus"
+    // },
     {
         imgSrc: dan,
         name: "Daniel Dedekind",

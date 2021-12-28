@@ -19,15 +19,15 @@ const datas = [
         desc: <>
             - Manufacture Sneakers
             <br />
-            - Register New Co in Portugal</>
+            - Integrate Designs with Solana Games</>
     },
     {
         done: false,
         title: "JAN 2022",
         desc: <>
-            - Recruiting Full Time Design team
+            - Employ additional designers
             <br />
-            - First DAO created product
+            - R&D for first Merch Drop
             <br />
             - Integrate with ETH metaverses
         </>
